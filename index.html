@@ -9,8 +9,20 @@
         }
            hr {
         background-color:rgb(63, 47, 215);
-        }
-    
+    }
+      .profile {
+        display: flex; /* เปิดใช้งาน Flexbox */
+        align-items: center; /* จัดแนวตั้งตรงกลาง */
+      }
+      .profile img {
+        width: 20%;
+        height: auto;
+        border-radius: 50%;
+        margin-right: 20px; /* ช่องว่างขวา */
+      }
+      .profile-info {
+        text-align: left; /* จัดข้อความชิดconner */
+      }
         </style>
     </head>
     
@@ -20,12 +32,16 @@
     <link rel="stylesheet"href="styles.css">
 </head>
 <body>
-    <img src="image0_0.jpg" alt=""style="width:20%;height:auto;"><br>
-    <hr style="border-style: dotted solid; height: 20px ;">
-    <h1> Nattapat Nudon</h1>
-   <a href="https://steamcommunity.com/profiles/76561198090940178/">ไปยังเว็บไซต์ของหน่วยงาน</a><br>
-   <a href="contact.html">Contact</a>
+<div class="profile">
+     <img src="image0_0.jpg" alt=""style="width:20%;height:auto;"><br>
+     <div class="profile-info">
+         <h1> Nattapat Nudon</h1>
+         <a href="https://steamcommunity.com/profiles/76561198090940178/">ไปยังเว็บไซต์ของหน่วยงาน</a><br>
+         <a href="contact.html">Contact</a>
+        </div>
+    </div> 
    <hr style="border-style: dotted solid; height: 20px ;">
+   <h3>ผมชื่อเปาครับ เพื่อนเรียกเปาคุง</h3>
    <h3>work exp</h3>
     <ul>
  <!--<li>Cpall 2023-2024</li>
